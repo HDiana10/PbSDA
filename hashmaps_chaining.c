@@ -71,8 +71,8 @@ int main(){
     
     for(int i=0; i<n; i++){
         scanf("%d", &value);
-        int key = hashing(n, m);
-        add_element(&map, n, key);
+        int key = hashing(value, m);
+        add_element(&map, value, key);
     }
     
     afisare(map);
